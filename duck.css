@@ -1,0 +1,119 @@
+/* duck.css */
+
+body {
+    background-image: url('spooky-wallpaper.jpg'); /* Spooky wallpaper background */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    color: #eaeaea; /* Light text color for contrast */
+    font-family: 'Creepster', cursive; /* Spooky font */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center all text */
+}
+
+header {
+    padding: 20px;
+    backdrop-filter: blur(5px); /* Apply blur effect to header */
+}
+
+h1 {
+    font-size: 3em; /* Adjusted font size for the title */
+    background: linear-gradient(90deg, #ff0000, #660000); /* Red gradient */
+    -webkit-background-clip: text; /* Clip background to text */
+    -webkit-text-fill-color: transparent; /* Make text fill transparent */
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7); /* Deep shadow for depth */
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    background: linear-gradient(90deg, #ff0000, #660000); /* Red gradient */
+    -webkit-background-clip: text; /* Clip background to text */
+    -webkit-text-fill-color: transparent; /* Make text fill transparent */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+    margin: 10px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.content-box {
+    background-color: rgba(255, 0, 0, 0.5); /* Semi-transparent red box */
+    border: 2px solid #ff0000; /* Red border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    max-width: 800px; /* Max width for content */
+    margin: 0 auto; /* Center the box */
+    backdrop-filter: blur(5px); /* Apply blur effect to content box */
+}
+
+h3 {
+    font-size: 2em;
+    background: linear-gradient(90deg, #ff0000, #660000); /* Red gradient */
+    -webkit-background-clip: text; /* Clip background to text */
+    -webkit-text-fill-color: transparent; /* Make text fill transparent */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.5; /* Increase line height for readability */
+}
+
+strong {
+    color: #ff0000; /* Emphasize strong text in red */
+}
+
+ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+}
+
+button {
+    position: absolute;
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0); /* Fully transparent text */
+    font-size: 1em;
+    cursor: pointer;
+    text-shadow: none; /* No glow initially */
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+    user-select: none;
+    outline: none;
+}
+
+button:hover {
+    color: white; /* Button becomes visible */
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.7); /* Glow effect */
+}
+
+
+
+
+
+footer {
+    padding: 10px;
+    backdrop-filter: blur(5px); /* Apply blur effect to footer */
+}
+
+footer p {
+    margin: 0; /* Remove default margin */
+
+}
+footer a {
+    color: white !important; /* Forces white color for the link */
+    text-decoration: none; /* Removes underline */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Optional: Underline on hover */
+}
+
+.hidden-message {
+    color: black !important; /* Forces the black color */
+    text-shadow: none;
+    font-weight: bold;
+}
+
+
